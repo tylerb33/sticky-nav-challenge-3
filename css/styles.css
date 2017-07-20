@@ -1,0 +1,48 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	color: purple;
+}
+
+div#maincontainer {
+	width: 80%;
+	margin: 80px auto;
+}
+
+ul {
+	list-style-type: none;
+	background-color: #efefef;
+	padding: 15px 10px;
+	position: fixed;
+	margin-top: 0;
+	margin-left: 0;
+	top: 0;
+	left: 0;
+	width: 100%
+
+}
+
+li {
+	display: inline;
+	padding: 15px 10px;
+	border-right: 2px solid orange;
+}
+
+a {
+	text-decoration: none;
+}
+
+li:nth-child(3) > a:hover {
+	text-decoration: none;
+	color: orange;
+}
+
+li:nth-child(2):hover {
+	text-decoration: none;
+	background-color: orange;
+
+}
+
+li:nth-child(1):hover {
+	padding: 15px 15px;
+
+}
